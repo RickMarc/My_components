@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tipografia</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <a href="#"><img src="imagens/perfil.png" alt="Foto de perfil" class="perfil-img"></a>
+
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tipografia.html">Tipografia</a></li>
+                <li><a href="cards.html">Cards</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="formulario.html">Formulário</a></li>
+                <li><a href="botoes.html">Botões</a></li>
+                <li><a href="tabelas.html">Tabelas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="main">
+        <h1>My Components</h1>
+
+        <article class="hightlight">
+            <h2>Tipografia</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sed odit nam quae doloribus nesciunt odio. A, tenetur! Perferendis debitis iste qui necessitatibus velit inventore, excepturi nostrum dolorum praesentium laborum!</p>
+        </article>
+    
+            <section>
+                <h3>elementos</h3>
+
+                <article>
+                    <h4>Textos</h4>
+
+                    <p>Esse texto esta escrito em <b>negrito</b> e esse texto é um <strong>texto forte</strong></p>
+                    <p>Esse texto esta em <i>itálico</i> e esse texto esta <em>com ênfase</em></p>
+                    <p>Isto é um texto escrito de forma <u class="underline">erada</u> e isso é um <a href="#"> link</a></p>
+                </article>
+
+                <article>
+                    <h4>Sobrescrito e subscrito</h4>
+                    <p>3<sup>2</sup> é igual a 9</p>
+                    <p>A formula da aguá é H<sub>2</sub>O</p>
+                </article>
+
+                <article>
+                    <h4>Abreviações</h4>
+                    <p>Para criar página na web precisamos aprender sobre <a href="#html"></a><abbr title="Hypertext Markup Language">HTML</abbr>.</p> 
+                    <p>O <dfn id="html"><abbr title="Hypertext Markup Language">HTML</abbr></dfn> é a principal linguagem da web onde podemos incluir nosso conteúdo de forma semântica. </p> <!-- Para colocar abreviações -->
+                </article>
+
+                <article>
+                    <h4>Citações</h4>
+                    
+                    <blockquote> <!-- usado para citações -->
+                    <p>O ruim não é ter trabalho. O ruim é ter de trabalhar</p>
+                    <cite>Seu madruga</cite>
+                    </blockquote>
+
+                    <blockquote cite="https://www.youtube.com/">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia nostrum voluptas in sit possimus.
+                        <cite>Teste</cite>
+                    </blockquote>
+
+                    <p>Segundo o Seu Madruga <q>A vingança nunca é plena mata a alma e a envenena. </q></p> <!-- Aspas de citação -->
+
+                    <p>De acordo com o site linguee
+                        <q cite="https://www.linguee.com.br/ingles-portugues/traducao/potato.html">Tortilha de batata é basicamente uma omelete de batatas, com uns 4cm de altura. </q>
+                    </p>
+
+                    o filme <cite>Escola do Rock</cite> contém varias musicas antigas
+                </article>
+
+                <article>
+                    <h4>"Coisas" de computador</h4>
+
+                    <p>A propriedade <code>Background-color</code> do CSS serve para mudar a cor de fundo</p><!-- code marcar conteúdo como um trecho de código -->
+
+                    <pre> 
+Esse texto é um texto pré-formatado
+                    </pre>
+
+                    <pre>
+                        <code>
+article{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+                        </code>
+                    </pre>
+
+                    <p>
+                        Após executar o método <code>push()</code> Obtive o retorno <samp lang="en-us">undefined has not a push() function</samp>
+                    </p>
+
+                    <p>
+                        Pressione as teclas <kbd>CTRL</kbd> + <kbd>C</kbd> para copiar. <!-- para mostrar teclas do teclado -->
+                    </p>
+                </article>
+
+                <article>
+                    <h4>Datas e horários</h4>
+                    
+                    <p>O evento ocorrera em <time datetime="2026-11-10">10 de novembro de 2026</time>.</p> <!-- para marcar uma data -->
+                    <p>O evento ocorrera em <time datetime="2026-11-10">10/11/2026</time>.</p>
+                    <p>O evento ocorrera às <time datetime="2026-11-10T20:00:00">20h00 do dia 10 de novembro de 2026</time>.</p>
+                    <p>O evento ocorrera às <time datetime="2026-11-10T20:00:00-03:00">20h00 do dia 10 de novembro de 2026</time>.</p>
+
+                    <h5 lang="en-us">JS Conference</h5>
+                    <p>O evento inciara exatamente as <time datetime="19:00">19H00</time>.</p>
+
+                    <p>O evento ocorrera às 20h00 do dia <del>10 de novembro de 2026.</del> 11 de novembro de 2026</p> <!-- para riscar a data -->
+                </article>
+            </section>
+        
+
+    </main>
+</body>
+</html>
